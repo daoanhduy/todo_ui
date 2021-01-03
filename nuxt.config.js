@@ -122,16 +122,16 @@ export default {
         },
         endpoints: {
           login: {
-            url: "/api/v1/auths/Login",
+            url: "/api/auths/Login",
             method: "post",
             propertyName: "token"
           },
           logout: {
-            url: "/api/v1/auths/Logout",
+            url: "/api/auths/Logout",
             method: "post"
           },
           user: {
-            url: "/api/v1/users/getuser",
+            url: "/api/users/getuser",
             method: "get",
             propertyName: "data"
           }
